@@ -1,4 +1,4 @@
-const { getNextMove } = require('./utils/moves/getNextMove.js');
+const { getNextMove } = require('./utils/getNextMove.js');
 
 function getMove(player, board) {
   return getNextMove(player, board);
