@@ -1,7 +1,7 @@
+const { getNextMove } = require('./utils/moves/getNextMove.js');
+
 function getMove(player, board) {
-  // TODO: Determine valid moves
-  // TODO: Determine best move
-  return [2, 3];
+  return getNextMove(player, board);
 }
 
 function prepareResponse(move) {
