@@ -22,7 +22,7 @@ function priorityMove(moves) {
 
         let coord = `${x},${y}`;
 
-        let score = adjacentCorner.has(coord) ? 0          // Adjacent to a corner
+        let score = adjacentCorner.has(coord) ? 0           // Adjacent to a corner
         : (x === 0 || x === 7) && (y === 0 || y === 7) ? 4  // Corner
         : (x === 0 || x === 7 || y === 0 || y === 7) ? 3    // Edge
         : (x === 1 || x === 6 || y === 1 || y === 6) ? 1    // Inner Ring
