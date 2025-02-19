@@ -4,13 +4,13 @@ The goal of this program is to develop a remote othello player that is capable o
 
 ## Getting Started
 
-Install all required npm packages: `npm install`
-Running the client with: `node client.js [optional port] [optional hostname]`
-Running the server with a random type player: `java -jar othello.jar --p1-type remote --p2-type random  --wait-for-ui`
+Install all required npm packages: `npm install` <br />
+Running the client with: `node client.js [optional port] [optional hostname]` <br />
+Running the server with a random type player: `java -jar othello.jar --p1-type remote --p2-type random  --wait-for-ui` <br />
 
 ### Running Tests
 
-Run all tests: `npm test` or `npx jest`
+Run all tests: `npm test` or `npx jest` <br />
 Note: Running all tests will cause a few to fail. This is due to getNextMove returning a function call to priorityMove. For all tests to pass, comment out "return priorityMove(bestMoves)" in getNextMove and uncomment "return bestMoves". This will allow for getNextMove to be tested individually.
 
 ## Theory of Operation
