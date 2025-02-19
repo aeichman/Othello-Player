@@ -1,5 +1,3 @@
-const { getNextMove } = require('./getNextMove.js');
-
 function prepareResponse(move) {
   /**
    * Converts an array of 2 integers into a string with a newline

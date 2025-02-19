@@ -12,7 +12,7 @@ function getScore(player, board) {
             if (board[i][j] === player) {
                 score += 1;
             }
-            else if (board[i][j] === (3 - player)) {
+            else if (board[i][j] === (3 - player)) {  // 3 - player is opponent
                 score -= 1;
             }
         }
