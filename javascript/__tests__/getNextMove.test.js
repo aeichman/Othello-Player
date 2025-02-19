@@ -1,6 +1,6 @@
 const { getNextMove } = require('../utils/getNextMove.js');
 
-test('Returns the row and column of the best possible move (1)', () => {
+test('Returns the row and column of the best possible move', () => {
     const board = [
         [0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0],
@@ -16,13 +16,14 @@ test('Returns the row and column of the best possible move (1)', () => {
         [2,4],
         [3,5],
         [4,2],
+        [5,3]
       ];
     const result = getNextMove(1, board);
     expect(expectedResults).toContainEqual(result);
 });
 
 
-test('Returns the row and column of the best possible move (2)', () => {
+test('Returns the row and column of the best possible move', () => {
     const board = [
         [0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0],
@@ -39,7 +40,7 @@ test('Returns the row and column of the best possible move (2)', () => {
 });
 
 
-test('Returns the row and column of the best possible move (3)', () => {
+test('Returns the row and column of the best possible move', () => {
     const board = [
         [0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0],
