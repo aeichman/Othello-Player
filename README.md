@@ -7,6 +7,7 @@ The goal of this program is to develop a remote othello player that is capable o
 Install all required npm packages: `npm install` <br />
 Running the client with: `node client.js [optional port] [optional hostname]` <br />
 Running the server with a random type player: `java -jar othello.jar --p1-type remote --p2-type random  --wait-for-ui` <br />
+View UI at: http://localhost:8080/ <br />
 
 ### Running Tests
 
